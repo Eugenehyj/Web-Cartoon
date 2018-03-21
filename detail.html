@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8"/>
+	<title>book</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu">
+				
+			</div>
+		</nav>
+	</header>
+	<section>
+		<figure class="title">
+			<h1>名侦探柯南</h1>
+			<div class="image">
+				<img src="images/title1.jpg" alt="">
+			</div>
+			<div class="content">
+				<span>高中生侦探工藤新一与毛利兰在游乐园游玩时发现两个行动诡异的黑衣男子，便跟踪他们，不料被灌下一种叫“APTX4869”的神秘毒药，然而因为药物副作用，新一的身体竟回到孩童状态。为不使周围的人受到牵连，他化名为“江户川柯南”，寄住在毛利兰家中，用阿笠博士发明的手表型麻醉枪让毛利小五郎睡着，接着用蝴蝶结变声器模仿他的声音来进行推理，解决了许多案件，并一直寻找着黑衣组织的人的下落，希望有朝一日将其绳之以法，并变回原来的样子。</span>
+			</div>
+		</figure>
+		<article>
+			<div class="chater">
+				<div class="chater-i">
+					<div class="chater-title">
+						<span>名侦探柯南全集</span>
+						<button>列表</button>
+						<button>缩略图</button>
+						<hr/>
+					</div>
+					<div class="more">
+						<p>
+							<a href="javascript:;" class="btn" data-control="prev">上一页</a>
+							<a href="javascript:;" class="btn" data-control="next">下一页</a>
+						</p>
+					</div>
+					<div class="chater-content" id="imgContent">
+						<div class="img1" id="img1">
+							<span>第一话</span>
+							<a href="content.html?id=1" target="blank" ><img src="images/book1.jpg" width="700" alt="" class="stepImg" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+		<aside>
+			<div class="other">
+				<div class="otherTitle">
+					<span>同类推荐</span>
+					<button>更多</button>
+					<hr/>
+				</div>
+				<div class="otherContent">
+					<div>
+						<div class="otherImg">
+							<div class="imgText">
+								<a href="#"><span>黑白全书</span></a>
+							</div>
+							<img src="images/b6.jpg" alt="">
+						</div>
+					</div>
+					<div>
+						<div class="otherImg">
+							<div class="imgText">
+								<a href="#"><span>神医嫡女</span></a>
+							</div>
+							<img src="images/b5.jpg" alt="">
+						</div>
+					</div>
+					<div>
+						<div class="otherImg">
+							<div class="imgText">
+								<a href="#"><span>海贼王</span></a>
+							</div>
+							<img src="images/b11.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</section>
+	<footer></footer>
+	<script src="js/detail.js"></script>
+	<script>
+		window.onload = function(){
+			setImgChater();
+			otherImages();
+			changePage();
+		}
+	</script>
+</body>
+</html>
